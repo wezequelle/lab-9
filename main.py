@@ -32,7 +32,6 @@ def main():
         elif option == 2: #TODO:implement decode function into main
             pass_decode = decoder(pass_encode)
             print(f"The encoded password is {pass_encode}, and the original password is {pass_decode}.")
-            pass
         elif option == 3:
             break
 
